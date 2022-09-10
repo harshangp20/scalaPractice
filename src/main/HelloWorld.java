@@ -1,2 +1,4 @@
-package main;public class HelloWorld {
+package main;
+
+public class HelloWorld {
 }
