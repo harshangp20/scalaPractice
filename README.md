@@ -1,2 +1,2 @@
 # scalaPractice
-This is repository for scala practise
+This repository is for scala practise
