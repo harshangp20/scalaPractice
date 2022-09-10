@@ -14,8 +14,9 @@ object Functions extends App {
 
   def aRepeatedFunction(aString: String, double: Double): String = {
 
-    if (double == 1) aString else aString + aRepeatedFunction(aString, double - 1)
+    if (double == 1) aString
+    else aString + aRepeatedFunction(aString, double - 1)
   }
 
-  println(aRepeatedFunction("Harshang ", 1))
+  println(aRepeatedFunction("Harshang ", 10))
 }
