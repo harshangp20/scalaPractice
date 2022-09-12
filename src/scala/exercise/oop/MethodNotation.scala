@@ -27,7 +27,7 @@ object MethodNotation extends App {
 
     def apply(n: Int): String = s"$name watched $favouriteMovie $n times "
 
-    def learnsScala: String = this learns ("scala")
+    def learnsScala: String = this learns "scala"
 
     def learns(thing: String) = s"$name is learning $thing"
   }
@@ -39,7 +39,7 @@ object MethodNotation extends App {
   println(1.+(2))
 
   println(!harshang)
-  println(harshang.unary_!)
+  println(!harshang)
   println(harshang.isAlive)
   println(harshang isAlive)
 
